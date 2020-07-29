@@ -50,4 +50,11 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+       <repository>
+            <id>Nexus-demo</id>
+            <name>Maven-vsz</name>
+            <URL>http://34.86.13.145:8081/repository/Maven-vsz/</URL>
+       </repository>
+    </distributionManagement>
 </project>
